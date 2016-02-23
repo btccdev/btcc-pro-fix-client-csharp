@@ -63,7 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="References\QuickFix.dll" />
-    <Content Include="selfFIX44.xml" />
+    <Content Include="selfFIX44.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="session_client.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
