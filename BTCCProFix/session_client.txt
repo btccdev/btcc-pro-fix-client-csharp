@@ -3,7 +3,7 @@ FileStorePath=btccfixclient
 FileLogPath=btccclientlog
 ConnectionType=initiator
 ReconnectInterval=60
-SenderCompID=<your company id>
+SenderCompID=[your company id]
 
 [SESSION]
 BeginString=FIX.4.4
