@@ -35,8 +35,9 @@
     <StartupObject>BTCCProFix.MainClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="QuickFix">
-      <HintPath>..\packages\QuickFix.Net.1.5.0\lib\QuickFix.dll</HintPath>
+    <Reference Include="QuickFix, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Reference\QuickFix.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -61,6 +62,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="References\QuickFix.dll" />
     <Content Include="selfFIX44.xml" />
     <Content Include="session_client.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
