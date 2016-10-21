@@ -3,14 +3,14 @@ FileStorePath=btccfixclient
 FileLogPath=btccclientlog
 ConnectionType=initiator
 ReconnectInterval=60
-SenderCompID=[your_SenderCompID]
+SenderCompID=[ACCESS_KEY]
 
 [SESSION]
 BeginString=FIX.4.4
 TargetCompID=BTCC-PRO-EXCHANGE-SERVER
 HeartBtInt=30
-SocketConnectPort=port
-SocketConnectHost=ip
+SocketConnectPort=9880
+SocketConnectHost=pro-fix.btcc.com
 SSLEnable=Y
 StartTime=00:00:00
 EndTime=00:00:00

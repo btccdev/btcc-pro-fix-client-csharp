@@ -14,7 +14,7 @@ namespace CSharpAPITestClient.forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox1.Text) && String.IsNullOrEmpty(textBox2.Text))
+            if (!String.IsNullOrEmpty(textBox1.Text) && !String.IsNullOrEmpty(textBox2.Text))
             {
                 Settings.Default.Account = SignEngine.GetAccountString(Settings.Default.ACCESS_KEY,
                     Settings.Default.SECRET_KEY);
